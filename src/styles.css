@@ -1,0 +1,11 @@
+body {
+    background-image: url(/kseniya-lapteva-A4rqd2g-eLo-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'DM Serif Display', serif !important;
+}
+
+.otherProjects {
+    width: 23rem;
+}

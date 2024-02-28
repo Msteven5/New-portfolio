@@ -19,10 +19,10 @@ export default function Projects() {
         </div>
       </article>
 
-      <div className="row justify-content-center" id="restOfProjects">
+      <div className="row justify-content-center">
         <h4 className="row m-2 justify-content-center align-items-center">Other Projects for Consideration!</h4>
 
-        <div className="m-4 p-4 w-25">
+        <div className="m-4 p-4 otherProjects">
           <img src="/weather viewing app screenshot.png" height="150px" className="card-img-top rounded-3" alt="..." />
           <div className="card-body">
             <h5 className="card-title my-2">Card title</h5>
@@ -32,7 +32,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="m-4 p-4 w-25">
+        <div className="m-4 p-4 otherProjects">
           <img src="/timed coding quiz screenshot.png" height="150px" className="card-img-top rounded-3" alt="..." />
           <div className="card-body">
             <h5 className="card-title my-2">Card title</h5>
@@ -42,7 +42,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="m-4 p-4 w-25" id="lastProject">
+        <div className="m-4 p-4 otherProjects" id="lastProject">
           <img src="/README Generator Screenshot.png" height="150px" className="card-img-top rounded-3" alt="..." />
           <div className="card-body">
             <h5 className="card-title my-2">README Generator</h5>
