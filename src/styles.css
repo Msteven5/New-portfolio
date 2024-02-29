@@ -9,3 +9,7 @@ body {
 .otherProjects {
     width: 23rem;
 }
+
+#messageText {
+    height: 100px;
+}

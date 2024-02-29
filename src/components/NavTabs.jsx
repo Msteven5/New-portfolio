@@ -15,11 +15,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           <ul class="navbar-nav">
             <li className="nav-item">
               <a
-                href="#landing"
-                onClick={() => handlePageChange('Landing')}
-                className={currentPage === 'Landing' ? 'nav-link active text-light' : 'nav-link text-light'}
+                href="#home"
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active text-light' : 'nav-link text-light'}
               >
-                Landing
+                Home
               </a>
 
             </li>
