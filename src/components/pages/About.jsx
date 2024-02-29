@@ -1,15 +1,15 @@
 export default function About() {
   return (
     <div>
-      <article className="d-flex vh-100 justify-content-center align-items-center">
+      <article className="d-flex justify-content-center align-items-center">
         <section className="container-fluid">
 
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center mt-4">
             <img className="d-flex justify-content-center" src="/Michael's Avatar.jpg" width="150" height="150" />
           </div>
 
           <div className="fs-4 fw-bold p-2 text-decoration-underline d-flex justify-content-center">About Me</div>
-          <p className="mx-auto fs-5 p-3 text-center w-50 border border-warning border-2 rounded">My name is
+          <p className="mx-auto fs-5 p-3 text-center w-75 border border-warning border-2 rounded">My name is
             Michael,
             and I have been interested in the tech field for a while, with a specific interest in coding. I have had
             friends
