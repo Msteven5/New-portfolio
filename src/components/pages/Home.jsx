@@ -1,7 +1,7 @@
-export default function Landing() {
+export default function Home() {
   return (
     <div>
-      <h1>Landing Page</h1>
+      <h2  className="my-3 text-center">Full Stack Web Developer</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
