@@ -13,3 +13,72 @@ body {
 #messageText {
     height: 100px;
 }
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.snow_wrap {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position:absolute;
+    z-index: -1;
+}
+
+.snow,
+.snow:before,
+.snow:after {
+    position: absolute;
+    top: -650px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image:
+        radial-gradient(4px 4px at 100px 50px, red, transparent),
+        radial-gradient(6px 6px at 200px 150px, orange, transparent),
+        radial-gradient(3px 3px at 300px 250px, yellow 50%, transparent),
+        radial-gradient(4px 4px at 400px 350px, green 50%, transparent),
+        radial-gradient(6px 6px at 500px 100px, blue 50%, transparent),
+        radial-gradient(3px 3px at 50px 200px, indigo 50%, transparent),
+        radial-gradient(4px 4px at 150px 300px, violet 50%, transparent),
+        radial-gradient(6px 6px at 250px 400px, white 50%, transparent),
+        radial-gradient(3px 3px at 350px 500px, teal 50%, transparent);
+    background-size: 650px 650px;
+    animation: snow 3s linear infinite;
+    content: "";
+    z-index: -1;
+}
+
+.snow:after {
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+    animation-duration: 6s;
+    animation-direction: reverse;
+    z-index: -1;
+}
+
+.snow:before {
+    margin-left: -350px;
+    opacity: 0.7;
+    filter: blur(1px);
+    animation-duration: 9s;
+    animation-direction: reverse;
+    z-index: -1;
+}
+
+@keyframes snow {
+    to {
+        transform: translateY(650px);
+    }
+}
+
+#resume {
+    height: 75px;
+}

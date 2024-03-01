@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div>
       <h1 className="text-center">Contact Me</h1>
-      <h5 for="basic-url" className="form-label my-3 text-center">Send Me A Fun Message or Tell Me You Want To Hire Me!</h5>
+      <h5 className="form-label my-3 text-center">Send Me A Fun Message or Tell Me You Want To Hire Me!</h5>
       <div className="d-flex justify-content-center">
 
         <form className="border border-2 p-4 w-75 my-4 rounded-4" id="contactForm" action="https://formsubmit.co/michaeldavidsonthedeveloper@gmail.com" method="POST">
