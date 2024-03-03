@@ -79,6 +79,16 @@ body {
     }
 }
 
-#resume {
-    height: 75px;
+.skills > li{
+    display: flex;
+    border: 2px solid white;
+    list-style: none;
+    background-color: rgb(33, 37, 41);
+    transition: 2.5s;
+    cursor: pointer;
 }
+
+.skills > li:hover {
+    transform: rotateY(180deg);
+}
+

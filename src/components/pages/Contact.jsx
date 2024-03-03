@@ -5,7 +5,7 @@ export default function Contact() {
       <h5 className="form-label my-3 text-center">Send Me A Fun Message or Tell Me You Want To Hire Me!</h5>
       <div className="d-flex justify-content-center">
 
-        <form className="border border-2 p-4 w-75 my-4 rounded-4" id="contactForm" action="https://formsubmit.co/michaeldavidsonthedeveloper@gmail.com" method="POST">
+        <form className="border border-2 mb-5 p-4 w-75 my-4 rounded-4" id="contactForm" action="https://formsubmit.co/michaeldavidsonthedeveloper@gmail.com" method="POST">
           <input type="hidden" name="_next" value="https://magicians-guild-blog-910cd4061319.herokuapp.com" />
           <input type="hidden" name="_subject" value="Someone Sent You a Message From Your Portfolio!" />
           <input type="hidden" name="_captcha" value="false" />
