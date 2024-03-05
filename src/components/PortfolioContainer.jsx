@@ -5,6 +5,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './Footer'
+import Thanks from "./pages/Thank You";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -19,6 +20,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Projects') {
       return <Projects />;
+    }
+    if (currentPage === 'Thank You') {
+      return <Thanks />;
     }
     return <Contact />;
   };

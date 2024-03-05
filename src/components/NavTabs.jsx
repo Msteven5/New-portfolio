@@ -52,6 +52,15 @@ function NavTabs({ currentPage, handlePageChange }) {
                 Contact Me
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                href="#thanks"
+                onClick={() => handlePageChange('Thank You')}
+                className='d-none'
+              >
+                Contact Me
+              </a>
+            </li>
           </ul>
         </div>
       </div>

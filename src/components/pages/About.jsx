@@ -4,12 +4,12 @@ export default function About() {
       <article className="d-flex justify-content-center align-items-center">
         <section className="container-fluid">
 
+          <div className="fs-4 fw-bold p-2 d-flex justify-content-center">About Me</div>
+
           <div className="d-flex justify-content-center mt-4">
             <img className="d-flex justify-content-center" src="/Michael's Avatar.jpg" width="150" height="150" />
           </div>
-
-          <div className="fs-4 fw-bold p-2 text-decoration-underline d-flex justify-content-center">About Me</div>
-          <p className="mx-auto fs-5 p-3 text-center w-75 border border-warning border-2 rounded">My name is
+          <p className="mx-auto my-4 text-responsive-about p-3 text-start col-4, col-sm-6 border border-white border-2 rounded">My name is
             Michael,
             and I have been interested in the tech field for a while, with a specific interest in coding. I have had
             friends
