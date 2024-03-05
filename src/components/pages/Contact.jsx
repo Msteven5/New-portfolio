@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="row d-flex justify-content-center">
 
         <form className="col-lg-7, col-md-6, col-sm-4 border border-2 mb-5 p-4 w-75 my-4 rounded-4" id="contactForm" action="https://formsubmit.co/michaeldavidsonthedeveloper@gmail.com" method="POST">
-          <input type="hidden" name="_next" value="https://michaeldavidsonportfolio.netlify.app" />
+          <input type="hidden" name="_next" />
           <input type="hidden" name="_subject" value="Someone Sent You a Message From Your Portfolio!" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="box"></input>
