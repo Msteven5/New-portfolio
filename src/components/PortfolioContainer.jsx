@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='min-vh-100 position-relative'>
       {/* We are passing the currentPage from state and the function to update it */}
       <div className="snow_wrap">
         <div className="snow"></div>
@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       <main className="mx-3">{renderPage()}</main>
       
-      <Footer></Footer>
+      <Footer />
 
     </div>
   );

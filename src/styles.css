@@ -24,18 +24,18 @@ body {
 }
 
 .snow_wrap {
-    height: 1200px;
+    min-height:100%;
     width: 100%;
     overflow: hidden;
     position:absolute;
     z-index: -1;
 }
 
-.snow,
+/* .snow,
 .snow:before,
 .snow:after {
     position: absolute;
-    top: -950px;
+    top: -650px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -49,11 +49,11 @@ body {
         radial-gradient(4px 4px at 150px 300px, violet 50%, transparent),
         radial-gradient(6px 6px at 250px 400px, white 50%, transparent),
         radial-gradient(3px 3px at 350px 500px, teal 50%, transparent);
-    background-size: 950px 950px;
+    background-size: 650px 650px;
     animation: snow 3s linear infinite;
     content: "";
     z-index: -1;
-}
+} */
 
 .snow:after {
     margin-left: -250px;
@@ -75,7 +75,7 @@ body {
 
 @keyframes snow {
     to {
-        transform: translateY(950px);
+        transform: translateY(650px);
     }
 }
 
