@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <div className="contact">
       <h1 className="text-center">Contact Me</h1>
       <h5 className="form-label my-3 text-center">Send Me A Fun Message or Tell Me You Want To Hire Me!</h5>
       <div className="d-flex justify-content-center">
