@@ -1,6 +1,6 @@
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar nav-underline nav-fill navbar-expand-lg">
+    <nav className="sticky-top mb-5 navbar nav-underline nav-fill navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#"></a>
         <a className="fs-4 text-light navbar-brand" href="/">Michael Davidson</a>
@@ -49,7 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'nav-link active text-light' : 'nav-link text-light'}
               >
-                Contact
+                Contact Me
               </a>
             </li>
           </ul>

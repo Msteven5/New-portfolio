@@ -79,7 +79,7 @@ body {
     }
 }
 
-.skills > li{
+.skills > li {
     display: flex;
     border: 2px solid white;
     list-style: none;
