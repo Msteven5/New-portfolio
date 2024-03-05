@@ -31,7 +31,7 @@ body {
     z-index: -1;
 }
 
-/* .snow,
+.snow,
 .snow:before,
 .snow:after {
     position: absolute;
@@ -53,7 +53,7 @@ body {
     animation: snow 3s linear infinite;
     content: "";
     z-index: -1;
-} */
+}
 
 .snow:after {
     margin-left: -250px;
