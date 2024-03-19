@@ -7,7 +7,15 @@ body {
 }
 
 .otherProjects {
-    width: 23rem;
+    width: 75%;
+}
+
+.hiddenCard {
+    visibility: hidden;
+}
+
+.spacing {
+    margin-left:165px !important;
 }
 
 #messageText {
@@ -24,14 +32,14 @@ body {
 }
 
 .snow_wrap {
-    min-height:100%;
+    min-height: 100%;
     width: 100%;
     overflow: hidden;
-    position:absolute;
+    position: absolute;
     z-index: -1;
 }
 
-.snow,
+/* .snow,
 .snow:before,
 .snow:after {
     position: absolute;
@@ -53,7 +61,7 @@ body {
     animation: snow 3s linear infinite;
     content: "";
     z-index: -1;
-}
+} */
 
 .snow:after {
     margin-left: -250px;
@@ -79,7 +87,7 @@ body {
     }
 }
 
-.skills > li {
+.skills>li {
     display: flex;
     border: 2px solid white;
     list-style: none;
@@ -88,14 +96,29 @@ body {
     cursor: pointer;
 }
 
-.skills > li:hover {
+.skills>li:hover {
     transform: rotateY(180deg);
 }
 
 .text-responsive {
     font-size: calc(20% + 1vw + 1vh);
-  }
+}
 
-  .text-responsive-about {
+.text-responsive-about {
     font-size: calc(50% + 1vw);
-  }
+}
+
+@media only screen and (max-width: 900px) {
+    .hiddenCard{
+        display:none !important;
+    }
+    .otherProjects {
+        width:100%;
+        justify-self: center !important;
+        padding-right: 25px !important;
+margin-right:25px !important;
+    }
+    .spacing {
+        margin-left: 25px !important;
+    }
+}
