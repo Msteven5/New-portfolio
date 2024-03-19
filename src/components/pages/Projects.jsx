@@ -20,14 +20,14 @@ export default function Projects() {
             </div>
           </div>
           <div className="col">
-            <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-right">
-              <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title my-2">README Generator</h5>
-                <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
-                  to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
-              </div>
+          <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
+            <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
+            <div className="card-body m-5">
+              <h5 className="card-title my-2">README Generator</h5>
+              <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
+                to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
             </div>
+          </div>
           </div>
           <div className="col">
             <div className="m-4 p-4 otherProjects" data-aos="fade-right">
@@ -42,14 +42,14 @@ export default function Projects() {
               </div>
             </div>
             <div className="col">
-              <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-right">
-                <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title my-2">README Generator</h5>
-                  <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
-                    to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
-                </div>
-              </div>
+            <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
+            <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
+            <div className="card-body m-5">
+              <h5 className="card-title my-2">README Generator</h5>
+              <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
+                to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
+            </div>
+          </div>
             </div>
           </div>
           <div className="m-4 p-4 otherProjects" data-aos="fade-right">
@@ -64,14 +64,14 @@ export default function Projects() {
             </div>
           </div>
           <div className="col">
-            <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-right">
-              <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title my-2">README Generator</h5>
-                <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
-                  to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
-              </div>
+          <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
+            <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
+            <div className="card-body m-5">
+              <h5 className="card-title my-2">README Generator</h5>
+              <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
+                to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
             </div>
+          </div>
           </div>
           <div className="col">
             <div className="m-4 p-4 otherProjects" data-aos="fade-right">
@@ -88,23 +88,23 @@ export default function Projects() {
               </div>
             </div>
             <div className="col">
-              <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-right">
-                <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title my-2">README Generator</h5>
-                  <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
-                    to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
-                </div>
-              </div>
+            <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
+            <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
+            <div className="card-body m-3">
+              <h5 className="card-title my-2">README Generator</h5>
+              <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
+                to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
+            </div>
+          </div>
             </div>
           </div>
         </div>
 
 
         <div className="col">
-          <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-left">
+        <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
             <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-            <div className="card-body">
+            <div className="card-body m-3">
               <h5 className="card-title my-2">README Generator</h5>
               <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
                 to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
@@ -126,14 +126,14 @@ export default function Projects() {
           </div>
 
           <div className="col">
-            <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-left">
-              <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title my-2">README Generator</h5>
-                <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
-                  to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
-              </div>
+          <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
+            <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
+            <div className="card-body m-5">
+              <h5 className="card-title my-2">README Generator</h5>
+              <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
+                to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
             </div>
+          </div>
 
             <div className="col">
               <div className="m-4 p-4 otherProjects spacing" data-aos="fade-left">
@@ -150,9 +150,9 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-left">
+          <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
             <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-            <div className="card-body">
+            <div className="card-body m-5">
               <h5 className="card-title my-2">README Generator</h5>
               <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
                 to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
@@ -174,14 +174,14 @@ export default function Projects() {
           </div>
 
           <div className="col">
-            <div className="m-4 p-4 otherProjects hiddenCard" data-aos="fade-left">
-              <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title my-2">README Generator</h5>
-                <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
-                  to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
-              </div>
+          <div className="m-5 p-5 otherProjects hiddenCard" data-aos="fade-left">
+            <img src="/README Generator Screenshot.png" height="35%" className="card-img-top rounded-3" alt="..." />
+            <div className="card-body m-5">
+              <h5 className="card-title my-5">README Generator</h5>
+              <p className="card-text">A CLI application that utilizes back-end technologies such as Node.js to allow the user
+                to answer prompts and have a README generated for their project. There is no front end, so this link brings you to my GitHub to checkout the code!</p>
             </div>
+          </div>
 
             <div className="col">
               <div className="m-4 p-4 otherProjects spacing" data-aos="fade-left">
