@@ -1,12 +1,12 @@
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="contact container">
       <h1 className="text-center">Contact Me</h1>
       <h5 className="form-label my-3 text-center">Send Me A Fun Message or Tell Me You Want To Hire Me!</h5>
       <div className="row d-flex justify-content-center">
 
         <form className="col-lg-7, col-md-6, col-sm-4 border border-2 mb-5 p-4 w-75 my-4 rounded-4" id="contactForm" action="https://formsubmit.co/f12ddcb8bbd9d8c2ed188f9a9bfb99f4" method="POST">
-          <input type="hidden" name="_next" value="https://michaeldavidsonportfolio.netlify.app" />
+          <input type="hidden" name="_next" value="https://michaeldavidson.dev/Thanks" />
           <input type="hidden" name="_subject" value="Someone Sent You a Message From Your Portfolio!" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="box"></input>

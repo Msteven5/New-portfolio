@@ -1,6 +1,8 @@
+import Footer from '../Footer'
+
 export default function Projects() {
   return (
-    <div className="row">
+    <div className="row container-fluid justify-content-center">
       <h3 className="text-center mt-5">Time Line of Projects</h3>
       <h4 className="text-center mb-5">(In Descending Order)</h4>
 
@@ -200,6 +202,8 @@ export default function Projects() {
           </div>
         </div>
       </article>
+    <Footer />
     </div>
+    
   );
 }

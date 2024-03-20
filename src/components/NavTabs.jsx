@@ -1,4 +1,9 @@
-function NavTabs({ currentPage, handlePageChange }) {
+import { Link, useLocation } from "react-router-dom";
+
+function NavTabs() {
+  const pages = useLocation();
+
+  const currentPage = pages.pathname;
   return (
     <nav className="navbar nav-underline nav-fill navbar-expand-lg">
       <div className="container-fluid">
@@ -14,52 +19,41 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className="justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a
-                href="#home"
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active text-light' : 'nav-link text-light'}
-              >
-                Home
-              </a>
-
+              <li className="nav-item">
+                <Link
+                  to="/"
+                  className={currentPage === '/' ? 'nav-link active text-light' : 'nav-link text-light'}
+                >
+                  Home
+                </Link>
+              </li>
             </li>
+
             <li className="nav-item">
-              <a
-                href="#projects"
-                onClick={() => handlePageChange('Projects')}
-                className={currentPage === 'Projects' ? 'nav-link active text-light' : 'nav-link text-light'}
+              <Link
+                to="/Projects"
+                className={currentPage === '/Projects' ? 'nav-link active text-light' : 'nav-link text-light'}
               >
                 Projects
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a
-                href="#about"
-                onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active text-light' : 'nav-link text-light'}
+              <Link
+                to="/About"
+                className={currentPage === '/About' ? 'nav-link active text-light' : 'nav-link text-light'}
               >
                 About
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a
-                href="#contact"
-                onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active text-light' : 'nav-link text-light'}
+              <Link
+                to="/Contact"
+                className={currentPage === '/Contact' ? 'nav-link active text-light' : 'nav-link text-light'}
               >
                 Contact Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#thanks"
-                onClick={() => handlePageChange('Thank You')}
-                className='d-none'
-              >
-                Contact Me
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
