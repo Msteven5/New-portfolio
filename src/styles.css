@@ -175,8 +175,8 @@ body {
 @media only screen and (max-width: 800px) {
         .aboutMeContainer {
         display: flex;
-        justify-content: start;
-        align-items: start;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     .aboutMeTitle {
         margin: 20px 0 !important;
