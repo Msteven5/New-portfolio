@@ -64,7 +64,6 @@ body {
         radial-gradient(3px 3px at 350px 500px, teal 50%, transparent);
     background-size: 650px 650px;
     animation: snow 3s linear infinite;
-    content: "";
     z-index: -1;
 }
 
