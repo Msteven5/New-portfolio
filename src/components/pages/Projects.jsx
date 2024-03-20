@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <div className="row">
-      <h3 className="text-center">Time Line of Projects</h3>
+      <h3 className="text-center mt-5">Time Line of Projects</h3>
       <h4 className="text-center mb-5">(In Descending Order)</h4>
 
       <article className="row">

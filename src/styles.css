@@ -15,11 +15,16 @@ body {
 }
 
 .spacing {
-    margin-left:165px !important;
+    margin-left: 165px !important;
 }
 
 #messageText {
     height: 100px;
+}
+
+.homePage {
+    height: 100vh;
+    overflow: hidden;
 }
 
 *,
@@ -108,17 +113,77 @@ body {
     font-size: calc(50% + 1vw);
 }
 
-@media only screen and (max-width: 900px) {
-    .hiddenCard{
-        display:none !important;
+
+
+
+@media only screen and (max-width: 1400px) {
+    .aboutMe {
+        margin: 0px 20px !important;
+        padding: 0 !important;
     }
+
+    .aboutMeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .aboutMeTitle {
+        margin: 10px 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .hiddenCard {
+        display: none !important;
+    }
+
     .otherProjects {
-        width:100%;
+        width: 100%;
         justify-self: center !important;
         padding-right: 25px !important;
-margin-right:25px !important;
+        margin-right: 25px !important;
     }
+
     .spacing {
         margin-left: 25px !important;
+    }
+
+    .homePage {
+        overflow: auto;
+    }
+
+    .aboutMe {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .aboutMeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .aboutMeTitle {
+        margin: 15px 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+        .aboutMeContainer {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .aboutMeTitle {
+        margin: 20px 0 !important;
+        padding: 0 !important;
+    }
+    .aboutMe {
+        margin: 0 15px !important;
+        padding: 0 !important;
     }
 }
