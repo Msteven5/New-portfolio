@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Thanks() {
     return (
         <>
@@ -16,7 +18,7 @@ export default function Thanks() {
                         <div className="text-center">
                             <h1>Thank You !</h1>
                             <p>We've sent the message to Michael. Thanks for taking the time to check out my portfolio! </p>
-                            <button href='#' className="btn btn-outline-success">Back Home</button>
+                            <Link to="/" className="btn btn-outline-success">Back Home</Link>
                         </div>
                     </div>
                 </div>
