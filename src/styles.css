@@ -6,6 +6,48 @@ body {
     font-family: 'DM Serif Display', serif !important;
 }
 
+.mainBody {
+    background: linear-gradient(to top left, black 50%, transparent 50%);
+    z-index: -2;
+}
+
+.neon-text {
+
+    text-shadow:
+        0 0 7px white,
+        0 0 10px white,
+        0 0 21px white,
+        0 0 28px black,
+        0 0 35px black;
+    animation: pulsate 2.5s infinite alternate;
+}
+/* 
+@keyframes pulsate {
+    100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px white,
+            0 0 80px white,
+            0 0 90px white,
+            0 0 100px black,
+            0 0 150px black;
+    }
+
+    0% {
+        text-shadow:
+            0 0 2px #fff,
+            0 0 4px #fff,
+            0 0 6px #fff,
+            0 0 10px white,
+            0 0 45px white,
+            0 0 55px black,
+            0 0 70px black,
+            0 0 80px black;
+    }
+} */
+
 .otherProjects {
     width: 75%;
 }

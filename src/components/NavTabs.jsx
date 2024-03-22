@@ -18,7 +18,6 @@ function NavTabs() {
 
         <div className="justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
-            <li className="nav-item">
               <li className="nav-item">
                 <Link
                   to="/"
@@ -27,7 +26,6 @@ function NavTabs() {
                   Home
                 </Link>
               </li>
-            </li>
 
             <li className="nav-item">
               <Link

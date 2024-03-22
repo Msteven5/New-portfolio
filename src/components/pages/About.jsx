@@ -30,7 +30,7 @@ export default function About() {
               <h5 className="text-center my-4">Feel Free to Checkout My GitHub:<a href="https://github.com/Msteven5"><i className="mx-3 text-success fa-brands fs-4 fa-github"></i></a></h5>
 
 
-              <h5 className="text-center my-4">Here's A Downloadable Version of My Resume:<a href={Resume} download='Michael Davidson Resume'><i class="fa-solid mx-3 fs-4 text-info fa-file"></i></a></h5>
+              <h5 className="text-center my-4">Here's A Downloadable Version of My Resume:<a href={Resume} download='Michael Davidson Resume'><i className="fa-solid mx-3 fs-4 text-info fa-file"></i></a></h5>
 
             </div>
           </section>

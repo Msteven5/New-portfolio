@@ -10,7 +10,7 @@ export default function PortfolioContainer() {
       </div>
       <NavTabs />
       <Outlet />
-      <main className="mx-3"></main>
+      {/* <main className="mx-3"></main> */}
 
     </div>
   );
