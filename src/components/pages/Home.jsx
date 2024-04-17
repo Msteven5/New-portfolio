@@ -34,7 +34,7 @@ export default function Home() {
           <div className='h-50 mt-5 d-flex justify-content-center align-items-center'>
             <div className='text-wrap'>
               <h3 className='neon-text text-center'>Hello, I'm Michael!</h3>
-              <h2 className='neon-text text-center'>Junior Full Stack Developer</h2>
+              <h2 className='neon-text text-center'>Full Stack Developer</h2>
               <h1 className='neon-text text-center' id="textArea"></h1>
               <div className='d-flex my-4 justify-content-evenly rounded-4'>
                 <Link to="/Projects" className='btn btn-primary'>Check Out My Projects</Link>
